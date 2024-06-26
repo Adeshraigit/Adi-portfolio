@@ -1,0 +1,25 @@
+{
+    "videos": [
+        {
+            "id": 1,
+            "title": "Guitar Fundamentals",
+            "video": "/videos/Walmaart.mp4" 
+        },
+        {
+            "id": 2,
+            "title": "Guitar Fundamentals",
+            "video": "/videos/svb.mp4"
+        },
+        {
+            "id": 3,
+            "title": "Guitar Fundamentals",
+            "video": "/videos/The Ferrari Story.mp4"
+        },
+        {
+            "id": 4,
+            "title": "Guitar Fundamentals",
+            "slug": "guitar-fundamentals",
+            "video": "/videos/SAMPLE.mp4"
+        }
+    ]
+}

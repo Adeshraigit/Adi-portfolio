@@ -1,0 +1,16 @@
+{
+    "images": [
+        {
+            "id": 1,
+            "src": "/images/After.png"
+        },
+        {
+            "id": 2,
+            "src": "/images/Photoshop.png"
+        },
+        {
+            "id": 3,
+            "src": "/images/Premiere.png"
+        }
+    ]
+}
