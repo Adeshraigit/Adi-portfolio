@@ -4,7 +4,7 @@ import React from 'react'
 function Hero() {
   return (
     <>
-        <div className='grid grid-cols-1 items-center lg:grid-cols-2 h-[75vh]' >
+        <div className=' top-0 grid grid-cols-1 items-center lg:grid-cols-2 h-[75vh]' >
             <div className=' font-bold text-[100px] text-center text-7xl md:text-[200px]'>
                 Hello!
             </div>
