@@ -1,7 +1,7 @@
 'use client'
 import React from 'react'
-
 function Hero() {
+
   return (
     <>
         <div className=' top-0 grid grid-cols-1 items-center lg:grid-cols-2 h-[75vh]' >
