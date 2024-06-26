@@ -5,6 +5,9 @@ import { CardBody, CardContainer, CardItem } from '@/components/ui/3d-card'
 import work from '@/data/work.json'
 
 function Work() {
+
+  const featuredWork = work.videos.filter((work) => work.isFeatured)
+
   return (
     <>
      <div className="min-h-screen py-12 pt-36" >
@@ -15,7 +18,7 @@ function Work() {
             </div>
         </div>
         <div className="flex flex-wrap justify-center">
-            {work.videos.map((project) => (
+            {featuredWork.map((project) => (
                 <CardContainer key={project.id} className="inter-var m-4">
                 <CardBody className="bg-gray-50 relative group/card  dark:hover:shadow-2xl dark:hover:shadow-emerald-500/[0.1] dark:bg-black dark:border-white/[0.2] border-black/[0.1] w-auto sm:w-[30rem] h-auto rounded-xl p-6 border  ">
                   <CardItem

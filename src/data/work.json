@@ -3,23 +3,36 @@
         {
             "id": 1,
             "title": "Guitar Fundamentals",
-            "video": "/videos/Walmaart.mp4" 
+            "video": "/videos/Walmaart.mp4",
+            "isFeatured": "true" 
         },
         {
             "id": 2,
             "title": "Guitar Fundamentals",
-            "video": "/videos/svb.mp4"
+            "video": "/videos/svb.mp4",
+            "isFeatured": "true" 
         },
         {
             "id": 3,
             "title": "Guitar Fundamentals",
-            "video": "/videos/The Ferrari Story.mp4"
+            "video": "/videos/The Ferrari Story.mp4",
+            "isFeatured": "true" 
         },
         {
             "id": 4,
             "title": "Guitar Fundamentals",
-            "slug": "guitar-fundamentals",
-            "video": "/videos/SAMPLE.mp4"
+            "video": "/videos/SAMPLE.mp4",
+            "isFeatured": "true" 
+        },
+        {
+            "id": 5,
+            "title": "Guitar Fundamentals",
+            "video": "/videos/F1.mp4"
+        },
+        {
+            "id": 6,
+            "title": "Guitar Fundamentals",
+            "video": "/videos/main comps.mp4"
         }
     ]
 }

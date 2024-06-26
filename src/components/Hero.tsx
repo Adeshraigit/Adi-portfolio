@@ -5,7 +5,7 @@ function Hero() {
   return (
     <>
         <div className='grid grid-cols-1 items-center lg:grid-cols-2 h-[75vh]' >
-            <div className=' font-bold text-[150px] text-center lg:text-[200px]'>
+            <div className=' font-bold text-[100px] text-center text-7xl md:text-[200px]'>
                 Hello!
             </div>
             <div className='text-xl text-left mx-10 lg:mx-0 ' >
