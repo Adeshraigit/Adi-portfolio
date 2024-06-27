@@ -2,7 +2,9 @@
 import React from 'react'
 import Link from 'next/link'
 import { CardBody, CardContainer, CardItem } from '@/components/ui/3d-card'
+
 import work from '@/data/work.json'
+// import After from '/'
 
 function Work() {
 
@@ -50,5 +52,6 @@ function Work() {
     </>
   )
 }
+
 
 export default Work

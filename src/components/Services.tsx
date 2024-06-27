@@ -48,7 +48,7 @@ function Services() {
 
   return (
     <>
-    <div className='text-center mt-10'>
+    <div className='text-center m-10  '>
          <h2 className="text-7xl text-teal-600 font-semibold tracking-wide uppercase">What I Offer!</h2>
     </div>
     <div>

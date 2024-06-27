@@ -11,7 +11,7 @@ function Navbar() {
   return (
     <>
         <div className='flex justify-between gap-0 sticky top-0 left-0 z-20 bg-black' >
-            <div className='text-sm md:text-xl border-r-4 border-b-4 border-white p-3 md:p-8 ' >
+            <div className='text-sm md:text-xl border-r-2 border-b-2 border-white p-3 md:p-8 ' >
                 <Link href='/' >
                     Aditya Raut
                 </Link>
