@@ -2,8 +2,11 @@
 import React from 'react'
 import { motion } from "framer-motion";
 import { AuroraBackground } from "./ui/aurora-background";
+import { TextGenerateEffect } from "./ui/text-generate-effect";
 
 function Hero() {
+
+  const words = " I am a 18 year old young video editor, I can use my creative editing ideas to convert your raw footage into cool and high quality video.";
 
   return (
     <>
@@ -24,7 +27,7 @@ function Hero() {
                   Hello!
               </div>
               <div className='text-xl text-left mx-10 lg:mx-0  text-white ' >
-              I am a 18 year old young video editor, I can use my creative editing ideas to convert your raw footage into cool and high quality video.
+              <TextGenerateEffect words={words} />
               </div>
           </div>
         </motion.div>
