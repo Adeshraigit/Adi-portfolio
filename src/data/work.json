@@ -15,14 +15,12 @@
         {
             "id": 3,
             "title": "The Ferrari Story",
-            "video": "/videos/The Ferrari Story.mp4",
-            "isFeatured": "true" 
+            "video": "/videos/The Ferrari Story.mp4"
         },
         {
             "id": 4,
             "title": "Trading Advice",
-            "video": "/videos/SAMPLE.mp4",
-            "isFeatured": "true" 
+            "video": "/videos/SAMPLE.mp4"
         },
         {
             "id": 5,
@@ -38,12 +36,14 @@
         {
             "id": 8,
             "title": "Father of Nation?",
-            "video": "/videos/Gandhi.mp4"
+            "video": "/videos/Gandhi.mp4",
+            "isFeatured": "true" 
         },
         {
             "id": 9,
             "title": "WTF Podcast",
-            "video": "/videos/Nikhil .mp4"
+            "video": "/videos/Nikhil .mp4",
+            "isFeatured": "true" 
         }
     ]
 }
