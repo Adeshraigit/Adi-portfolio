@@ -2,37 +2,48 @@
     "videos": [
         {
             "id": 1,
-            "title": "Guitar Fundamentals",
+            "title": "Sam Walton",
             "video": "/videos/Walmaart.mp4",
             "isFeatured": "true" 
         },
         {
             "id": 2,
-            "title": "Guitar Fundamentals",
+            "title": "The  Fall  Of  SVB- silicon valley long form",
             "video": "/videos/svb.mp4",
             "isFeatured": "true" 
         },
         {
             "id": 3,
-            "title": "Guitar Fundamentals",
+            "title": "The Ferrari Story",
             "video": "/videos/The Ferrari Story.mp4",
             "isFeatured": "true" 
         },
         {
             "id": 4,
-            "title": "Guitar Fundamentals",
+            "title": "Trading Advice",
             "video": "/videos/SAMPLE.mp4",
             "isFeatured": "true" 
         },
         {
             "id": 5,
-            "title": "Guitar Fundamentals",
+            "title": "Formula-1 --- F!",
             "video": "/videos/F1.mp4"
         },
+       
         {
-            "id": 6,
-            "title": "Guitar Fundamentals",
-            "video": "/videos/main comps.mp4"
+            "id": 7,
+            "title": "Mark's story",
+            "video": "/videos/Freedom.mp4"
+        },
+        {
+            "id": 8,
+            "title": "Father of Nation?",
+            "video": "/videos/Gandhi.mp4"
+        },
+        {
+            "id": 9,
+            "title": "WTF Podcast",
+            "video": "/videos/Nikhil .mp4"
         }
     ]
 }
