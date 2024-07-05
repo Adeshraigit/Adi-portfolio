@@ -16,7 +16,7 @@ function Work() {
      <div>
             <div className='text-center' >
             <h2 className="text-2xl text-teal-600 font-semibold tracking-wide uppercase">MY WORK</h2>
-            <p className="mt-2 text-4xl leading-8 font-extrabold tracking-tight text-white sm:text-4xl">Get With the Best</p>
+            <p className="mt-2 text-4xl leading-8 font-extrabold tracking-tight dark:text-white sm:text-4xl">Get With the Best</p>
             </div>
         </div>
         <div className="flex flex-wrap justify-center">

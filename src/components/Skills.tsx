@@ -13,7 +13,7 @@ function Skills() {
      <div className='py-12' >
         <div>
             <div className='text-center' >
-            <p className="mt-2 text-3xl leading-8 font-extrabold tracking-tight text-white sm:text-4xl">Software I Use</p>
+            <p className="mt-2 text-3xl leading-8 font-extrabold tracking-tight dark:text-white sm:text-4xl">Software I Use</p>
             </div>
         </div>
         <div className='mt-10' >

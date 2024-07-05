@@ -7,8 +7,8 @@ import work from '@/data/work.json'
 function page() {
   return (
     <>
-     <div className="min-h-screen bg-black py-12 pt-36" >
-        <h1 className="text-lg md:text-7xl text-center font-sans font-bold mb-8 text-white">My Work</h1>
+     <div className="min-h-screen dark:bg-black bg-white py-12 pt-36" >
+        <h1 className="text-lg md:text-7xl text-center font-sans font-bold mb-8 text-neutral-600 dark:text-white">My Work</h1>
         <div className="flex flex-wrap justify-center">
         {work.videos.map((project) => (
                 <CardContainer key={project.id} className="inter-var m-4">
