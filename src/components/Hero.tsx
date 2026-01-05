@@ -10,29 +10,29 @@ function Hero() {
 
   return (
     <>
-    <div>
-     <AuroraBackground>
-        <motion.div
-        initial={{ opacity: 0.0, y: 40 }}
-        whileInView={{ opacity: 1, y: 0 }}
-        transition={{
-          delay: 0.3,
-          duration: 0.8,
-          ease: "easeInOut",
-        }}
-        className="relative flex flex-col gap-4 items-center justify-center px-4"
-      >
-          <div className=' top-0 grid grid-cols-1 items-center lg:grid-cols-2 h-[75vh]' >
+      <div>
+        <AuroraBackground>
+          <motion.div
+            initial={{ opacity: 0.0, y: 40 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            transition={{
+              delay: 0.3,
+              duration: 0.8,
+              ease: "easeInOut",
+            }}
+            className="relative flex flex-col gap-4 items-center justify-center px-4"
+          >
+            <div className=' top-0 grid grid-cols-1 items-center lg:grid-cols-2 h-[75vh]' >
               <div className=' font-bold text-[100px] text-center text-7xl md:text-[200px] text-teal-300 '>
-                  Hello!
+                Hello!
               </div>
               <div className='text-xl text-left mx-10 lg:mx-0  text-white ' >
-              <TextGenerateEffect words={words} />
+                <TextGenerateEffect words={words} />
               </div>
-          </div>
-        </motion.div>
-      </AuroraBackground>
-    </div>
+            </div>
+          </motion.div>
+        </AuroraBackground>
+      </div>
     </>
   )
 }

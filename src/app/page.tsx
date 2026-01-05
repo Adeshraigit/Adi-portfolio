@@ -7,10 +7,10 @@ import Services from '@/components/Services';
 export default function Home() {
   return (
     <>
-    <Hero/>
-    <Work/>
-    <Services/>
-    <Skills/>
+      <Hero />
+      <Work />
+      <Services />
+      <Skills />
     </>
   );
 }
